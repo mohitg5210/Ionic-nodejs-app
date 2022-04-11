@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar class="ios hydrated">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ios title-ios hydrated">Add Transactions</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-list lines="full" class="ion-no-margin ion-no-padding ios list-ios list-lines-full list-ios-lines-full hydrated">
+    <form [formGroup]="songForm" (ngSubmit)="onFormSubmit()">
+      
+      <ion-list>
+        <ion-radio-group formControlName="type" value="Credit">
+          <ion-list-header>
+            <ion-label>Type</ion-label>
+          </ion-list-header>
+          <ion-item>
+            <ion-label>Dabit</ion-label>
+            <ion-radio slot="start" value="Dabit"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Credit</ion-label>
+            <ion-radio slot="start" value="Credit"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+        
+      </ion-list>
+
+      <ion-item>
+        <ion-label position="floating">Amount</ion-label>
+        <ion-input formControlName="amount" type="number" required></ion-input>
+      </ion-item>
+
+
+      <ion-item>
+        <ion-label position="floating">Description</ion-label>
+        <ion-textarea formControlName="description" type="text" required>
+        </ion-textarea>
+      </ion-item>
+
+
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="primary" shape="full" expand="block">Add Transactions</ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-list>
+</ion-content>
