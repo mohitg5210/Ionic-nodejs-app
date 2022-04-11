@@ -5,7 +5,7 @@ A step by step Ionic 4 Cordova app, In this app, we will learn how to create a t
 [Build Ionic 4 Cordova and Angular 8 Transaction Mobile App]
 
 ## Start App
-* Git clone https://github.com/mohitg5210/transaction-app-Ionic-nodejs.git
+* Git clone https://github.com/mohitg5210/Ionic-nodejs-app.git
 * Run `npm install` to install npm packages
 * Run `ionic serve -l` to start lab mode
 
@@ -17,8 +17,8 @@ A step by step Ionic 4 Cordova app, In this app, we will learn how to create a t
 
 # Sample Screenshots
 * Screenshot 1
-![alt text](https://github.com/mohitg5210/transaction-app-Ionic-nodejs/blob/main/Screenshot_1.png?raw=true)
+![alt text](https://github.com/mohitg5210/Ionic-nodejs-app/blob/main/Screenshot_1.png?raw=true)
 * Screenshot 2
-![alt text](https://github.com/mohitg5210/transaction-app-Ionic-nodejs/blob/main/Screenshot_3.png?raw=true)
+![alt text](https://github.com/mohitg5210/Ionic-nodejs-app/blob/main/Screenshot_3.png?raw=true)
 * Screenshot 3
-![alt text](https://github.com/mohitg5210/transaction-app-Ionic-nodejs/blob/main/Screenshot_4.png?raw=true)
+![alt text](https://github.com/mohitg5210/Ionic-nodejs-app/blob/main/Screenshot_4.png?raw=true)
